@@ -6,7 +6,7 @@ This application was built using [React](https://reactjs.org/) and [Redux](https
 * npm
 
 ## How to run:
-1. [Download](https://github.com/lbarahona/reactnd-project-readable/archive/master.zip) or [https://github.com/lbarahona/reactnd-project-readable.git) the Repository.
+1. [Download](https://github.com/lbarahona/reactnd-project-readable/archive/master.zip) or [Clone](https://github.com/lbarahona/reactnd-project-readable.git) the Repository.
 2. Run `npm install` to install the project dependencies in both **blog** and **backend-server** Directory.
 - To run the **backend-server**: 
   - `cd` into **backend-server/api-server** Directory and use `node server` to start the backend.
