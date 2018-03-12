@@ -15,3 +15,6 @@ This application was built using [React](https://reactjs.org/) and [Redux](https
   - `cd` into **blog** Directory and use `npm start run` to start the app.
   
 3. Open your preferred web browser and type `localhost:3000` to access the application
+
+## create-react-app
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). You can find more information on how to perform common tasks [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
