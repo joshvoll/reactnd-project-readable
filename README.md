@@ -4,7 +4,8 @@ This is the complete project for the final assessment project for Udacity's Redu
 This application was built using [React](https://reactjs.org/) and [Redux](https://redux.js.org//) as a final project Udacity's React & Redux course, second part of the [React nanodegree program](https://www.udacity.com/course/react-nanodegree--nd019).
 
 ## Requirements
-* npm
+* [NodeJS](https://nodejs.org)
+* [npm](https://www.npmjs.com/get-npm)
 
 ## How to run:
 1. [Download](https://github.com/lbarahona/reactnd-project-readable/archive/master.zip) or [Clone](https://github.com/lbarahona/reactnd-project-readable.git) the Repository.

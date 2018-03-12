@@ -24,7 +24,7 @@ class NavBar extends Component {
         </ul>
       </div>
       <div className="nav-content">
-        <ul className="tabs tabs-transparent red hide-on-large-only">
+        <ul className="tabs tabs-transparent blue hide-on-large-only">
           {
             this.props.categories.map((category, index) => (<li className="tab" key={index}>
               <Link to={`/${category.name}`}>{category.name}</Link>
