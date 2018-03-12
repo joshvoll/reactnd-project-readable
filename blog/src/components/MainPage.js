@@ -34,7 +34,7 @@ class MainPage extends Component {
       <SortSelect sorting={this.handleSort}/> {
         Posts.filter((post) => post.deleted !== true).length > 0
           ? Posts.filter((post) => post.deleted !== true).sort((a, b) => this.sortPosts(a.voteScore, b.voteScore)).map(post => (<PostCard post={post} key={post.id}/>))
-          : <h2>sorry no post available! Please add new Post using Add Button.</h2>
+          : <h2>There are no post available! You can add new Post using Add Button.</h2>
       }
       <AddPostButton/>
     </div>)

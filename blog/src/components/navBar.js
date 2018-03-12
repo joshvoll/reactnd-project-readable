@@ -13,8 +13,8 @@ class NavBar extends Component {
   render() {
 
     return (<nav className="nav-extended">
-      <div className="nav-wrapper red">
-        <Link to='/' className="brand-logo">React Blog</Link>
+      <div className="nav-wrapper blue">
+        <Link to='/' className="brand-logo">Readable Blog</Link>
         <ul className="right hide-on-med-and-down">
           {
             this.props.categories.map((category, index) => (<li key={index}>

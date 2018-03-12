@@ -38,7 +38,7 @@ class PostCard extends Component {
                       <span className="badge blue white-text">{post.category}</span>
                     </Link>
                     <div className="chip postcard-author">
-                      <img src="/images/yuna.jpg" alt="Contact Person"/> {post.author}
+                      <img src="/images/lbarahona.jpeg" alt="Contact Person"/> {post.author}
                     </div>
                     <div className="row">
 
