@@ -1,0 +1,87 @@
+@media only screen and (min-width: 992px) {
+  .brand-logo {
+    margin-left: 2vw;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #d6dadc;
+}
+
+.category-mobile-heading {
+  line-height: 48px;
+  padding: 0 15px;
+}
+
+.postcard-image {
+  height: max-content;
+}
+
+.postcard, #sort-select {
+  margin-top: 3vh;
+}
+
+.postcard-author {
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+}
+
+.postcard-votes {
+  display: inline-grid;
+}
+
+.postcard-votes>a {
+  padding: 0;
+  width: fit-content;
+}
+
+.postcard-title {
+  cursor: pointer;
+}
+
+.postcard-edit+.postcard-edit {
+  margin-right: 2vw;
+}
+
+.postcard-edit {
+  cursor: pointer;
+}
+
+#sort-dropdown {
+  top: 65px !important;
+}
+
+.comment-edit {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#post-form {
+  margin-top: 8vh;
+}
+
+#comment-body {
+  color: #545454;
+}
+
+.delete-button {
+  background: none;
+  border: 0;
+  float: right;
+}
+
+.edit-button, .edit-button:focus, .edit-button:visited, .cancel-button, .cancel-button:focus, .cancel-button:visited {
+  background: none;
+  border: 0;
+}
+
+.vote-button {
+  padding: 0;
+}
+
+.vote-score-count, .comment-vote {
+  text-align: center;
+}
